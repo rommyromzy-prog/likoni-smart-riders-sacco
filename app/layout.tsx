@@ -6,6 +6,9 @@ export const metadata: Metadata = {
   title: "Likoni Smart Riders SACCO",
   description:
     "Empowering riders through savings, loans, and financial growth.",
+  verification: {
+    google: "vJul7U_DP02-oWQ3mO85l0NoCbTL4bXgadxM_yVM-dA",
+  },
 };
 
 export default function RootLayout({
