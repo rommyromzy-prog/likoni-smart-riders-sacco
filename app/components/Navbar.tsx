@@ -33,9 +33,18 @@ export default function Navbar() {
       <div className="max-w-7xl mx-auto flex justify-between items-center px-6">
 
         {/* Logo */}
-        <h1 className="text-2xl font-bold text-orange-500">
-          Likoni SACCO
-        </h1>
+        <div className="flex items-center gap-3">
+  <img
+    src="/favicon.ico"
+    alt="Likoni SACCO Logo"
+    className="w-12 h-12 rounded-full"
+  />
+
+  <h1 className="text-2xl font-bold text-orange-500">
+    Likoni SACCO
+  </h1>
+</div>       
+        
 
         {/* Desktop Menu */}
         <div className="hidden md:flex gap-8 font-semibold">
