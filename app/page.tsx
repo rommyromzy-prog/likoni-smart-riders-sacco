@@ -24,6 +24,31 @@ export default function Home() {
 
   const [loading, setLoading] = useState(true);
 
+  const handlePayment = async () => {
+  try {
+    const response = await fetch("/api/stkpush", {
+      method: "POST",
+      headers: {
+        "Content-Type": "application/json",
+      },
+      body: JSON.stringify({
+        phone: "254119853505",
+        amount: 1,
+      }),
+    });
+
+    const data = await response.json();
+
+    console.log(data);
+
+    alert("STK Push Sent Successfully!");
+  } catch (error) {
+    console.error(error);
+
+    alert("Payment Failed");
+  }
+};
+
   useEffect(() => {
 
     AOS.init({

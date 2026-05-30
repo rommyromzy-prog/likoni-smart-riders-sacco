@@ -1,6 +1,31 @@
 import { motion } from "framer-motion";
 
 export default function Membership() {
+ const handlePayment = async () => {
+  try {
+    const response = await fetch("/api/stkpush", {
+      method: "POST",
+      headers: {
+        "Content-Type": "application/json",
+      },
+      body: JSON.stringify({
+        phone: "254119853505",
+        amount: 1,
+      }),
+    });
+
+    const data = await response.json();
+
+    console.log(data);
+
+    alert("STK Push Sent Successfully!");
+  } catch (error) {
+    console.error(error);
+
+    alert("Payment Failed");
+  }
+};
+
   return (
     <motion.section
       id="membership"
@@ -18,10 +43,12 @@ export default function Membership() {
         Join Likoni Smart Riders SACCO today and enjoy savings,
         affordable loans, and financial empowerment opportunities.
       </p>
-
-      <button className="bg-orange-500 hover:bg-orange-600 hover:scale-110 active:scale-95 transition duration-300 px-8 py-4 rounded-full text-lg font-semibold shadow-2xl">
-        Register Now
-      </button>
+<button
+  onClick={handlePayment}
+  className="bg-orange-500 hover:bg-orange-600 hover:scale-105 transition duration-300 px-8 py-4 rounded-full text-lg font-semibold shadow-xl"
+>
+  Pay Membership Fee
+</button>
 
     </motion.section>
 
