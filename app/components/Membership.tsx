@@ -3,7 +3,7 @@ import { motion } from "framer-motion";
 export default function Membership() {
  const handlePayment = async () => {
   try {
-    const response = await fetch("/api/stkpush", {
+    const response = await fetch("/api/token/stkpush", {
       method: "POST",
       headers: {
         "Content-Type": "application/json",
