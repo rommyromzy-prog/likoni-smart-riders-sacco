@@ -29,7 +29,7 @@ export default function Hero() {
 
         <p className="max-w-2xl mx-auto text-lg md:text-xl mb-8">
           Empowering riders through savings,
-          loans, and community financial growth.
+          loans, and community financial growth.We also have tents and chairs for special oaccasions.
         </p>
 
         <a
