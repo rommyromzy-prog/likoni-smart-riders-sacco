@@ -33,6 +33,10 @@ export async function POST(req: Request) {
       .slice(0, 14);
 
     // Password
+    console.log("Shortcode:", shortCode);
+console.log("Passkey exists:", !!passKey);
+console.log("Consumer Key exists:", !!consumerKey);
+console.log("Consumer Secret exists:", !!consumerSecret);
     const password = Buffer.from(
       `${shortCode}${passKey}${timestamp}`
     ).toString("base64");
@@ -61,11 +65,12 @@ export async function POST(req: Request) {
     );
 
     return NextResponse.json(stkResponse.data);
-
   } catch (error: any) {
+    console.error("DARAJA ERROR:", error?.response?.data || error);
+
     return NextResponse.json(
       {
-        error: error.message,
+        error: error?.response?.data || error.message,
       },
       { status: 500 }
     );

@@ -19,11 +19,11 @@ export default function Membership() {
     console.log(data);
 
     alert("STK Push Sent Successfully!");
-  } catch (error) {
-    console.error(error);
+  }catch (error: any) {
+  console.error("Payment Error:", error);
 
-    alert("Payment Failed");
-  }
+  alert("Check browser console (F12) for error details");
+}
 };
 
   return (
