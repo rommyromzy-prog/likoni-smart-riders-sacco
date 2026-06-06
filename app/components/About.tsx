@@ -151,15 +151,6 @@ export default function About() {
             className="rounded-3xl shadow-2xl object-cover h-72 w-full hover:scale-105 transition duration-500"
           />
 
-          <motion.img
-            initial={{ opacity: 0, scale: 0.8 }}
-            whileInView={{ opacity: 1, scale: 1 }}
-            transition={{ duration: 1.4 }}
-            src="/images/riders.jpg"
-            alt="Riders"
-            className="rounded-3xl shadow-2xl object-cover h-72 w-full hover:scale-105 transition duration-500"
-          />
-
         </div>
 
       </div>
