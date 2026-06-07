@@ -15,7 +15,7 @@ export default function Hero() {
       }}
     >
 
-      <div className="absolute inset-0 bg-black/30"></div>
+      <div className="absolute inset-0 bg-black/50"></div>
 
       <motion.div
         initial={{ opacity: 0, y: 50 }}
