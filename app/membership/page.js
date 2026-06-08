@@ -2,13 +2,19 @@ export default function MembershipPage() {
   return (
     <main className="min-h-screen bg-gray-100 py-20 px-6">
 
-      <div className="max-w-3xl mx-auto bg-white p-10 rounded-3xl shadow-xl">
+      <div className="max-w-3xl mx-auto bg-white p-10 rounded-3xl shadow-2xl border border-gray-200">
 
-        <h1 className="text-4xl font-bold text-blue-900 mb-8 text-center">
-          Membership Registration
-        </h1>
+        <p className="text-center text-gray-600 mb-8">
+  Success is not by accident.
+</p>
 
-        <form className="space-y-6">
+          <form
+  className="space-y-6"
+  onSubmit={(e) => {
+    e.preventDefault();
+    setSuccess(true);
+  }}
+>
 
           <div>
             <label className="block mb-2 font-medium">
@@ -18,7 +24,7 @@ export default function MembershipPage() {
             <input
               type="text"
               placeholder="Enter your full name"
-              className="w-full border rounded-xl p-4"
+              className="w-full border border-gray-300 rounded-xl p-4 text-gray-900"
             />
           </div>
 
@@ -30,7 +36,7 @@ export default function MembershipPage() {
             <input
               type="tel"
               placeholder="07XXXXXXXX"
-              className="w-full border rounded-xl p-4"
+              className="w-full border border-gray-300 rounded-xl p-4 text-gray-900"
             />
           </div>
 
@@ -42,7 +48,7 @@ export default function MembershipPage() {
             <input
               type="email"
               placeholder="example@email.com"
-              className="w-full border rounded-xl p-4"
+              className="w-full border border-gray-300 rounded-xl p-4 text-gray-900"
             />
           </div>
 
@@ -54,19 +60,19 @@ export default function MembershipPage() {
             <input
               type="text"
               placeholder="Rider, Business Owner, etc."
-              className="w-full border rounded-xl p-4"
+              className="w-full border border-gray-300 rounded-xl p-4 text-gray-900"
             />
           </div>
 
           <div>
-            <label className="block mb-2 font-medium">
+            <label className="block mb-2 font-medium text-gray-800">
               Message
             </label>
 
             <textarea
               rows="4"
               placeholder="Tell us about yourself"
-              className="w-full border rounded-xl p-4"
+              className="w-full border border-gray-300 rounded-xl p-4 text-gray-900"
             ></textarea>
           </div>
 
