@@ -82,6 +82,19 @@ const sendEmail = (e: React.FormEvent) => {
             required
             className="w-full p-4 border rounded-xl outline-none focus:ring-2 focus:ring-orange-500"
           />
+          <a
+  href="tel:0711299211"
+  className="text-orange-500 font-semibold hover:underline"
+>
+  0711299211
+</a>
+
+<a
+  href="tel:0751655711"
+  className="text-orange-500 font-semibold hover:underline"
+>
+  0751655711
+</a>
 
           <button
             type="submit"

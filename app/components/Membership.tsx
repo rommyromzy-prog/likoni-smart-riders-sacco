@@ -1,30 +1,34 @@
 import { motion } from "framer-motion";
+import { useState } from "react";
 
 export default function Membership() {
- const handlePayment = async () => {
-  try {
-    const response = await fetch("/api/token/stkpush", {
-      method: "POST",
-      headers: {
-        "Content-Type": "application/json",
-      },
-      body: JSON.stringify({
-        phone: "254119853505",
-        amount: 1,
-      }),
-    });
 
-    const data = await response.json();
+  const [success, setSuccess] = useState(false);
 
-    console.log(data);
+  const handlePayment = async () => {
+    try {
+      const response = await fetch("/api/token/stkpush", {
+        method: "POST",
+        headers: {
+          "Content-Type": "application/json",
+        },
+        body: JSON.stringify({
+          phone: "254119853505",
+          amount: 1,
+        }),
+      });
 
-    alert("STK Push Sent Successfully!");
-  }catch (error: any) {
-  console.error("Payment Error:", error);
+      const data = await response.json();
 
-  alert("Check browser console (F12) for error details");
-}
-};
+      console.log(data);
+
+      alert("STK Push Sent Successfully!");
+    } catch (error: any) {
+      console.error("Payment Error:", error);
+
+      alert("Check browser console (F12) for error details");
+    }
+  };
 
   return (
     <motion.section

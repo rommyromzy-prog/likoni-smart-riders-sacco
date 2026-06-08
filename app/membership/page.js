@@ -1,4 +1,12 @@
+"use client";
+
+import { useState } from "react";
+
+const [success, setSuccess] = useState(false);
+
 export default function MembershipPage() {
+
+  const [success, setSuccess] = useState(false);
   return (
     <main className="min-h-screen bg-gray-100 py-20 px-6">
 
@@ -15,6 +23,7 @@ export default function MembershipPage() {
     setSuccess(true);
   }}
 >
+
 
           <div>
             <label className="block mb-2 font-medium">
@@ -83,7 +92,12 @@ export default function MembershipPage() {
             Submit Application
           </button>
 
-        </form>
+          {success && (
+            <div className="bg-green-100 text-green-800 p-4 rounded-xl mb-6 text-center">
+              ✅ Application submitted successfully!
+            </div>
+          )}
+      </form>
 
       </div>
 
