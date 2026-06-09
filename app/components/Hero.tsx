@@ -4,6 +4,11 @@ import { motion } from "framer-motion";
 
 
 export default function Hero() {
+  const handlePayment = () => {
+    // Implement payment flow or navigation here
+    console.log("Pay membership fee clicked");
+  };
+
   return (
     <section
       id="home"
@@ -38,6 +43,25 @@ export default function Hero() {
         >
           Become a Member
         </a>
+
+
+<br /><br />
+
+<a
+  href="/motorcycle-request"
+  className="bg-green-600 hover:bg-green-700 px-8 py-4 rounded-full text-lg font-semibold shadow-xl inline-block"
+>
+  Request Motorcycle
+</a>
+
+<br /><br />
+
+<button
+  onClick={handlePayment}
+  className="bg-orange-500 hover:bg-orange-600 hover:scale-105 transition duration-300 px-8 py-4 rounded-full text-lg font-semibold shadow-xl"
+>
+  Pay Membership Fee
+</button>
       </motion.div>
 
     </section>
