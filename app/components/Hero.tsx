@@ -53,15 +53,6 @@ export default function Hero() {
 >
   Request Motorcycle
 </a>
-
-<br /><br />
-
-<button
-  onClick={handlePayment}
-  className="bg-orange-500 hover:bg-orange-600 hover:scale-105 transition duration-300 px-8 py-4 rounded-full text-lg font-semibold shadow-xl"
->
-  Pay Membership Fee
-</button>
       </motion.div>
 
     </section>

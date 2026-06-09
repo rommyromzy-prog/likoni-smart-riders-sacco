@@ -97,6 +97,8 @@ Motorcycle: ${motorcycle}
               <option>Haojin</option>
               <option>TVS</option>
               <option>Spiro</option>
+              <option>Tianma</option>
+              <option>Honda</option>
             </select>
           </div>
 
