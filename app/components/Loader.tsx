@@ -19,7 +19,7 @@ export default function Loader() {
       >
 
         <h1 className="text-4xl md:text-6xl font-bold text-orange-500">
-          Likoni SACCO
+          Likoni Bodaboda Sacco
         </h1>
 
         <p className="text-white mt-4 text-lg">

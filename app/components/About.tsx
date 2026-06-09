@@ -37,8 +37,7 @@ export default function About() {
             transition={{ duration: 0.8 }}
             src="/images/team1.jpg"
             alt="Team"
-            className="rounded-3xl shadow-2xl object-cover h-72 w-full hover:scale-105 transition duration-500"
-          />
+            className="h-64 w-full object-cover rounded-3xl shadow-2xl border border-white hover:scale-105 hover:-translate-y-2 transition duration-500 contrast-110 brightness-105"        />
 
           <motion.img
             initial={{ opacity: 0, scale: 0.8 }}
@@ -46,7 +45,7 @@ export default function About() {
             transition={{ duration: 1 }}
             src="/images/team2.jpg"
             alt="Members"
-            className="rounded-3xl shadow-2xl object-cover h-72 w-full hover:scale-105 transition duration-500"
+            className="h-64 w-full object-cover rounded-3xl shadow-2xl border border-white hover:scale-105 hover:-translate-y-2 transition duration-500 contrast-110 brightness-105"
           />
 
           <motion.img
@@ -55,7 +54,7 @@ export default function About() {
             transition={{ duration: 1 }}
             src="/images/team3.jpg"
             alt="Members"
-            className="rounded-3xl shadow-2xl object-cover h-72 w-full hover:scale-105 transition duration-500"
+            className="h-64 w-full object-cover rounded-3xl shadow-2xl border border-white hover:scale-105 hover:-translate-y-2 transition duration-500 contrast-110 brightness-105"
           />
 
           <motion.img
@@ -64,7 +63,7 @@ export default function About() {
             transition={{ duration: 1 }}
             src="/images/team4.jpg"
             alt="Members"
-            className="rounded-3xl shadow-2xl object-cover h-72 w-full hover:scale-105 transition duration-500"
+            className="h-64 w-full object-cover rounded-3xl shadow-2xl border border-white hover:scale-105 hover:-translate-y-2 transition duration-500 contrast-110 brightness-105"
           />
 
 
@@ -74,7 +73,7 @@ export default function About() {
             transition={{ duration: 1 }}
             src="/images/team5.jpg"
             alt="Members"
-            className="rounded-3xl shadow-2xl object-cover h-72 w-full hover:scale-105 transition duration-500"
+          className="h-64 w-full object-cover rounded-3xl shadow-2xl border border-white hover:scale-105 hover:-translate-y-2 transition duration-500 contrast-110 brightness-105"
          />
 
           <motion.img
@@ -83,7 +82,7 @@ export default function About() {
             transition={{ duration: 1 }}
             src="/images/team6.jpg"
             alt="Members"
-            className="rounded-3xl shadow-2xl object-cover h-72 w-full hover:scale-105 transition duration-500"
+          className="h-64 w-full object-cover rounded-3xl shadow-2xl border border-white hover:scale-105 hover:-translate-y-2 transition duration-500 contrast-110 brightness-105"
         />
 
           <motion.img
@@ -92,7 +91,7 @@ export default function About() {
             transition={{ duration: 1 }}
             src="/images/team7.jpg"
             alt="Members"
-            className="rounded-3xl shadow-2xl object-cover h-72 w-full hover:scale-105 transition duration-500"
+            className="h-64 w-full object-cover rounded-3xl shadow-2xl border border-white hover:scale-105 hover:-translate-y-2 transition duration-500 contrast-110 brightness-105"
           />
 
              <motion.img
@@ -101,7 +100,7 @@ export default function About() {
             transition={{ duration: 1 }}
             src="/images/team8.jpg"
             alt="Members"
-            className="rounded-3xl shadow-2xl object-cover h-72 w-full hover:scale-105 transition duration-500"
+          className="h-64 w-full object-cover rounded-3xl shadow-2xl border border-white hover:scale-105 hover:-translate-y-2 transition duration-500 contrast-110 brightness-105"
           />
 
            <motion.img
@@ -110,7 +109,7 @@ export default function About() {
             transition={{ duration: 1 }}
             src="/images/team9.jpg"
             alt="Members"
-            className="rounded-3xl shadow-2xl object-cover h-72 w-full hover:scale-105 transition duration-500"
+            className="h-72 w-full object-cover rounded-3xl shadow-2xl border border-white hover:scale-105 hover:-translate-y-2 transition duration-500 contrast-110 brightness-105"
           />
 
           <motion.img
@@ -119,7 +118,7 @@ export default function About() {
             transition={{ duration: 1 }}
             src="/images/team10.jpg"
             alt="Members"
-            className="rounded-3xl shadow-2xl object-cover h-72 w-full hover:scale-105 transition duration-500"
+            className="h-64 w-full object-cover rounded-3xl shadow-2xl border border-white hover:scale-105 hover:-translate-y-2 transition duration-500 contrast-110 brightness-105"
           />
 
           <motion.img
@@ -128,7 +127,7 @@ export default function About() {
             transition={{ duration: 1 }}
             src="/images/team11.jpg"
             alt="Members"
-            className="rounded-3xl shadow-2xl object-cover h-72 w-full hover:scale-105 transition duration-500"
+            className="h-64 w-full object-cover rounded-3xl shadow-2xl border border-white hover:scale-105 hover:-translate-y-2 transition duration-500 contrast-110 brightness-105"
           />
 
           <motion.img
@@ -137,7 +136,7 @@ export default function About() {
             transition={{ duration: 1 }}
             src="/images/team12.jpg"
             alt="Members"
-            className="rounded-3xl shadow-2xl object-cover h-72 w-full hover:scale-105 transition duration-500"
+            className="h-64 w-full object-cover rounded-3xl shadow-2xl border border-white hover:scale-105 hover:-translate-y-2 transition duration-500 contrast-110 brightness-105"
           />
 
 
@@ -148,7 +147,7 @@ export default function About() {
             transition={{ duration: 1.2 }}
             src="/images/Our form.jpg"
             alt="Office"
-            className="rounded-3xl shadow-2xl object-cover h-72 w-full hover:scale-105 transition duration-500"
+            className="h-64 w-full object-cover rounded-3xl shadow-2xl border border-white hover:scale-105 hover:-translate-y-2 transition duration-500 contrast-110 brightness-105"
           />
 
         </div>
