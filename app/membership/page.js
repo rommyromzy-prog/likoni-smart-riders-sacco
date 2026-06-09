@@ -2,11 +2,10 @@
 
 import { useState } from "react";
 
-const [success, setSuccess] = useState(false);
-
 export default function MembershipPage() {
 
   const [success, setSuccess] = useState(false);
+
   return (
     <main className="min-h-screen bg-gray-100 py-20 px-6">
 
