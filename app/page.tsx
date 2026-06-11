@@ -63,7 +63,6 @@ export default function Home() {
     return () => clearTimeout(timer);
 
   }, []);
-
   if (loading) {
     return <Loader />;
   }
