@@ -11,6 +11,7 @@ import Contact from "./components/Contact";
 import Membership from "./components/Membership";
 import About from "./components/About";
 import Statistics from "./components/Statistics";
+import Gallery from "./components/Gallery";
 import Services from "./components/Services";
 import Hero from "./components/Hero";
 import { useEffect, useState } from "react";
@@ -80,6 +81,8 @@ export default function Home() {
        <Services />
       
        <Statistics />
+
+       <Gallery />
 
        <About />
 
