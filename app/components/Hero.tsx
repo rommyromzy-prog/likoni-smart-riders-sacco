@@ -29,7 +29,7 @@ export default function Hero() {
         className="relative z-10 px-4 sm:px-6"
       >
         <h2 className="text-3xl sm:text-4xl md:text-6xl font-bold mb-6">
-          Likoni Smart Riders SACCO
+          <marquee>Likoni Smart Riders SACCO</marquee>
         </h2>
 
         <p className="max-w-2xl mx-auto text-lg md:text-xl mb-8">
@@ -41,7 +41,7 @@ export default function Hero() {
           href="#membership"
           className="inline-block bg-orange-500 hover:bg-orange-600 hover:scale-110 active:scale-95 transition duration-300 px-8 py-4 rounded-full text-lg font-semibold shadow-2xl"
         >
-          Become a Member
+          <b>Become a Member</b>
         </a>
 
 
